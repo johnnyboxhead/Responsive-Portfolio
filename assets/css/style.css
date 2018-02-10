@@ -1,0 +1,582 @@
+
+/* .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+} */
+
+.header{
+    width: 76%;
+    height: 75px;
+    background: #ffffff;
+    margin: auto;
+    /*setting dimensions of the header*/
+}
+.namebox {
+    float: left;
+    display: table;
+    background-color: #4aaaa5;
+    width: 27%;
+    height: 75px;
+    position: relative;
+    /*setting dimensions of the name in the header*/
+}
+    
+.name {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 13px;
+    top: 25%;
+    /*setting internal dimensions of name*/    
+}
+
+h1 {    
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    /*setting font, color, and alignment of name*/   
+}
+
+#aboutbox{
+    left: 48%;
+    position: relative;
+    display: table;
+    float: left;
+    height: 75px;
+    width: 7%;
+    /*setting location and dimensions of About in top navigation*/    
+}
+
+#about{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    /*setting font, color, and alignment of About in top navigation*/
+}
+
+.aboutline{
+    position: relative;
+    height: 20px;
+    width: 1px;
+    background-color: #666666;
+    margin-right: 7px;
+    margin-top: 27.5px;
+}
+
+#portfoliobox{
+    display: table;
+    position: relative;
+    left: 48%;
+    float: left;
+    color: #777777;
+    height: 75px;
+    width: 7%;
+    /*setting location and dimensions of Portfolio in top navigation*/
+}
+
+#portfolio{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    /*setting font, color, and alignment of Portfolio in top navigation*/
+}
+
+.portfolioline{
+    position: relative;
+    height: 20px;
+    width: 1px;
+    background-color: #666666;
+    margin-left: 11px;
+    margin-top: 27.5px;
+}
+
+#contactbox{
+    position: relative;
+    display: table;
+    float: left;
+    color: #777777;
+    height: 75px;
+    width: 7%;
+    left: 48%
+    /*setting location and dimensions of Contact in top navigation*/
+}
+
+#contact{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    /*setting font, color, and alignment of Portfolio in top navigation*/
+}
+
+.section0{
+    width: 100%;
+    overflow: auto;
+    display: inline-block;
+    padding: 0px, 0px, 20px, 0px;
+    position: relative;
+    /*setting width, padding, and position relative for middle section of page from left to right*/
+}
+
+   /* .clearfix::after {
+    clear: both;
+}     */
+    /*clearfix for section0*/
+
+#backgroundimage{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    /*setting position, z-indes, width, and height of background in section0*/
+}
+
+.section1{
+    width: 76%;
+    margin-bottom: 20px;
+    margin: auto;
+    /*setting size and margins of section 1, which includes main content for page and Connect with Me*/
+}
+
+#sectionAboutMe{
+    width: 63%;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #777777;
+    padding: 20px;
+    text-align: left;
+    /*setting width, border, float, margins, colors, and padding of the About Me section*/
+}
+
+#aboutme{
+    font-size: 24px;
+    text-align: center;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+    /*setting font, alignment, color, and margins of the text: About Me*/
+}
+
+.line1{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    background-color: #666666;
+    margin-bottom: 20px;
+}
+
+#image1{
+    height: 120px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    /*sets size of image*/
+}
+
+.sectionconnectwithme{
+    width: 28%;
+    margin-top: 20px;
+    float: right;
+    margin-left: 2%;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    position: relative;
+    /*sets size of Connect with Me box*/
+}
+
+.connect{
+    font-size: 24px;
+    text-align: center;
+    color: #4aaaa5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*sets font, alignment, color, and margin for the Connet with Me text*/
+}
+
+.connectline{
+    position: relative;
+    height: 1px;
+    width: 85%;
+    background-color: #666666;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#lilink{
+    width: 25%;
+    height: 25%;
+    margin-left: 2%;
+    /*sets size of LinkedIn icon*/
+}
+
+#fblink{
+    width: 25%;
+    height: 25%;
+    margin-left: 2%;
+    /*sets size of Facebook icon*/
+}
+
+#twlink{
+    width: 25%;
+    height: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /*sets size of Twitter icon*/
+}
+
+.footerline1{
+    float: left;
+    height: 5px;
+    width: 100%;
+    background-color: #4aaaa5;
+    margin-top: 20px;
+    /*sets float, dimensions, background, and margin of the teal footer line for About Me page*/
+}
+
+.footerline2{
+    float: left;
+    height: 12px;
+    width: 100%;
+    background-color: #4aaaa5;
+    margin-top: 20px;
+    /*sets float, dimensions, background, and margin of the teal footer line for Contact and Portfolio pages*/
+}
+
+.sectionfooter{
+    display: table;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    height: 70px;
+    /*sets the position, location, size, and color of the footer*/
+}
+
+.footer{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    /*sets the position of the text in the footer*/
+}
+
+#sectioncontact{
+    width: 610px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #777777;
+    padding: 20px;
+    /*sets the size, border, floats, margins, colors, and padding of the Contact section*/
+}
+
+#headingcontact{
+    font-size: 24px;
+    text-align: left;
+    color: #4aaaa5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*sets the font, alignment, color, and margins of the heading in the Contact section*/
+}
+
+h4{
+    color: #777777;
+    margin-left: 20px;
+    /*sets the color and margin of the Contact text*/
+}
+
+#namebox{
+    width: 610px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    /*sets the dimensions, border, and margin of the box the person should enter their name in*/
+}
+
+#emailbox{
+    width: 610px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    /*sets the dimensions, border, and margin of the box the person should enter their email address in*/    
+}
+
+#messagebox{
+    width: 610px;
+    height: 300px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    /*sets the dimensions, border, and margin of the box the person should enter their message in*/    
+}
+
+#submitbox {
+    margin-left: 20px;
+    display: table;
+    background-color: #4aaaa5;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    /*sets the margins, color, dimensions, and text alignment of the submit button*/
+}
+
+#submit{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 13px;
+    top: 25%;
+    color: white;
+    /*sets the alignment, padding, margin, and color of the Submit text*/
+}
+
+#sectionportfolio{
+    width: 650px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #777777;
+    /*sets the dimensions, borders, float, margins, and colors of the Portfolio section*/
+}
+
+#headerportfolio{
+    font-size: 24px;
+    text-align: center;
+    color: #4aaaa5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*sets the font, alignment, color, and margins of the Portfolio text*/
+}
+
+.line2{
+    position: relative;
+    height: 1px;
+    width: 610px;
+    background-color: #666666;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#sectionhangman{
+    float: left;
+    margin-left: 20px;
+    height: 150px;
+    width: 295;
+    border: 1px solid #cccccc;
+    /*sets the float, margin, dimensions, and border of the hangman section*/
+}
+
+#hangmanpic{
+    z-index: 1;
+    height: 150px;
+    width: 295;
+    /*sets the z-index and dimensions of the hangman pic*/
+}
+
+#hangman{
+    position: relative;
+    z-index: 2;
+    width: 265px;
+    text-align: center;
+    bottom: 65px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 25px;
+    font-size: 20px;
+    padding: 15px;
+    /*sets position, z-index, dimentions, alignment, colors, font size, and padding*/
+} 
+
+#sectionrpggame{
+    float: left;
+    margin-left: 20px;
+    height: 150px;
+    width: 295;
+    border: 1px solid #cccccc;
+    /*sets the float, margin, dimensions, and border of the rpg section*/
+}
+    
+#rpgpic{
+    z-index: 1;
+    height: 150px;
+    width: 295;
+    /*sets the z-index and dimensions of the rpg pic*/
+}
+    
+#rpg{
+    position: relative;
+    z-index: 2;
+    width: 265px;
+    text-align: center;
+    bottom: 65px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 25px;
+    font-size: 20px;
+    padding: 15px;
+    /*sets position, z-index, dimentions, alignment, colors, font size, and padding for rpg text*/
+}
+
+#sectiontriviagame{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 150px;
+    width: 295;
+    border: 1px solid #cccccc;
+    /*sets the float, margin, dimensions, and border of the trivia section*/
+}
+    
+#triviapic{
+    z-index: 1;
+    height: 150px;
+    width: 295;
+    /*sets the z-index and dimensions of the trivia pic*/
+}
+    
+#trivia{
+    position: relative;
+    z-index: 2;
+    width: 265px;
+    text-align: center;
+    bottom: 65px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 25px;
+    font-size: 20px;
+    padding: 15px;
+    /*sets position, z-index, dimentions, alignment, colors, font size, and padding for trivia text*/
+} 
+
+#sectionrutgersinfowidget{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 150px;
+    width: 295;
+    border: 1px solid #cccccc;
+    /*sets the float, margin, dimensions, and border of the widget section*/
+}
+    
+#widgetpic{
+    z-index: 1;
+    height: 150px;
+    width: 295;
+    /*sets the z-index and dimensions of the widget pic*/
+}
+    
+#widget{
+    position: relative;
+    z-index: 2;
+    width: 265px;
+    text-align: center;
+    bottom: 65px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 25px;
+    font-size: 20px;
+    padding: 15px;
+    /*sets position, z-index, dimentions, alignment, colors, font size, and padding widget text*/
+} 
+
+#sectionrockpaperscissors{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 150px;
+    width: 295;
+    border: 1px solid #cccccc;
+    /*sets the float, margin, dimensions, and border of the rock paper scissors section*/
+}
+    
+#rpspic{
+    z-index: 1;
+    height: 150px;
+    width: 295;
+    /*sets the z-index and dimensions of the rock paper scissors  pic*/
+}
+    
+#rps{
+    position: relative;
+    z-index: 2;
+    width: 265px;
+    text-align: center;
+    bottom: 65px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 25px;
+    font-size: 20px;
+    padding: 15px;
+    /*sets position, z-index, dimentions, alignment, colors, font size, and padding rock paper scissors text*/
+} 
+
+@media screen and (max-width: 980px){
+    
+    #sectionAboutMe{
+        float: left;
+        bottom: 30px;
+        width: 93.5%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .sectionconnectwithme{
+        float: left;
+        bottom: 30px;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+
+
+}
+
+/* @media screen and (max-width: 768px){
+    body{
+        width: 64%
+    }
+    .header{
+        width: 64%;
+    }
+    .section0{
+        width: 64%;
+    }
+    .footerline2{
+        width: 64%;
+    }
+    .sectionfooter{
+        width: 64%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    body{
+        width: 53%;
+    }
+        
+        .header{
+            width: 53%;
+        }
+        .section0{
+            width: 53%;
+        }
+        .footerline2{
+            width: 53%;
+        }
+        .sectionfooter{
+            width: 53%;
+        }
+    } */
