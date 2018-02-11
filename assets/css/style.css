@@ -203,29 +203,29 @@ h1 {
 .connectline{
     position: relative;
     height: 1px;
-    width: 85%;
+    width: 80%;
     background-color: #666666;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 10%;
+}
+
+#fblink{
+    width: 29%;
+    height: 29%;
+    margin-left: 3%;
+    /*sets size of Facebook icon*/
 }
 
 #lilink{
-    width: 25%;
-    height: 25%;
+    width: 29%;
+    height: 29%;
     margin-left: 2%;
     /*sets size of LinkedIn icon*/
 }
 
-#fblink{
-    width: 25%;
-    height: 25%;
-    margin-left: 2%;
-    /*sets size of Facebook icon*/
-}
-
 #twlink{
-    width: 25%;
-    height: 25%;
+    width: 29%;
+    height: 29%;
     margin-left: 2%;
     margin-right: 2%;
     /*sets size of Twitter icon*/
@@ -521,12 +521,94 @@ h4{
     /*sets position, z-index, dimentions, alignment, colors, font size, and padding rock paper scissors text*/
 } 
 
-@media screen and (max-width: 980px){
+@media only screen and (max-width: 980px){
     
     #sectionAboutMe{
         float: left;
         bottom: 30px;
-        width: 93.5%;
+        width: 45%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    #aboutme{
+        font-size: 20px;
+        text-align: center;
+        color: #4aaaa5;
+        margin-bottom: 20px;
+
+    }
+
+    .sectionconnectwithme{
+        float: left;
+        bottom: 30px;
+        width: 28%;
+        margin: auto;
+        margin-left: 10%;
+        margin-top: 20px;
+        top: 0px;
+    }
+
+    .connect{
+        font-size: 20px;
+        text-align: center;
+        color: #4aaaa5;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 1%;
+    }
+
+    #fblink{
+        width: 25%;
+        height: 25%;
+        margin-left: 5%;
+    }
+    
+    #lilink{
+        width: 25%;
+        height: 25%;
+        margin-left: 5%;
+
+    }
+    
+    #twlink{
+        width: 25%;
+        height: 25%;
+        margin-left: 5%;
+    }
+
+    .connectline{
+        position: relative;
+        height: 1px;
+        width: 80%;
+        background-color: #666666;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        }
+}
+
+@media screen and (max-width: 768px){
+    
+    .header{
+        width: 76%;
+        height: 75px;
+        background: #ffffff;
+        margin: auto;
+    }
+
+    section1{
+        display: unset !important;
+        /* width: 120%;
+        margin-bottom: 20px;
+        margin: auto; */
+    }
+
+    #sectionAboutMe{
+        float: left;
+        left: 0px;
+        bottom: 30px;
+        width: 100%;
         margin: auto;
         margin-top: 20px;
         margin-bottom: 30px;
@@ -535,48 +617,45 @@ h4{
     .sectionconnectwithme{
         float: left;
         bottom: 30px;
-        width: 100%;
+        width: 107%;
         margin: auto;
         margin-top: 20px;
     }
 
+    #fblink{
+        width: 29%;
+        height: 29%;
+        margin-left: 3%;
+        /*sets size of Facebook icon*/
+    }
+    
+    #lilink{
+        width: 29%;
+        height: 29%;
+        margin-left: 2%;
+        /*sets size of LinkedIn icon*/
+    }
+    
+    #twlink{
+        width: 29%;
+        height: 29%;
+        margin-left: 2%;
+        margin-right: 2%;
+        /*sets size of Twitter icon*/
+    }
 
-
+    .connectline{
+        position: relative;
+        height: 1px;
+        width: 93%;
+        background-color: #666666;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        }
 }
 
-/* @media screen and (max-width: 768px){
-    body{
-        width: 64%
-    }
-    .header{
-        width: 64%;
-    }
-    .section0{
-        width: 64%;
-    }
-    .footerline2{
-        width: 64%;
-    }
-    .sectionfooter{
-        width: 64%;
-    }
-}
+
 
 @media screen and (max-width: 640px){
-    body{
-        width: 53%;
+
     }
-        
-        .header{
-            width: 53%;
-        }
-        .section0{
-            width: 53%;
-        }
-        .footerline2{
-            width: 53%;
-        }
-        .sectionfooter{
-            width: 53%;
-        }
-    } */
